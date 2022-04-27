@@ -1,0 +1,11 @@
+<launch>
+
+    <node pkg = "practice" type = "drone_pub" name = "drone_pub" output = "screen">
+    </node>
+
+    <node pkg = "practice" type = "drone_sub" name = "drone_sub" output = "screen">
+    </node>
+
+    <param name = "dronefreq" type = "double" value = "2.0" />
+
+</launch>

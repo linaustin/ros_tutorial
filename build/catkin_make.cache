@@ -1,0 +1,2 @@
+beginner_tutorials:practice:ros_tutorial:tfTransform:usb_cam
+-DCATKIN_DEVEL_PREFIX=/home/yuan-chi/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/yuan-chi/catkin_ws/install -G Unix Makefiles
